@@ -16,7 +16,7 @@ const connection = mongoose.connect('mongodb://root:secret@mongo:27017/sample_db
 
 const Schema = mongoose.Schema;
 
-const Postchema = new Schema({
+const PostSchema = new Schema({
     slug: {
         type: String,
         unique: true
